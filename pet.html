@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .card{
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .pet{
+            border-radius: 25px;
+            width: 100%;
+        }
+        h4{
+            color: #d56f3e;
+        }
+        span{
+            color: #9d6f24;
+        }
+        @media(max-width:676px){
+            .container{
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p><i>adoptme.com</i></p>
+    <h1>Adopt a <span> Pet</span> Today</h1>
+    <div class="container">
+        <div class="card">
+            <img class="pet" src="https://img.freepik.com/free-photo/lovely-pet-portrait-isolated_23-2149192357.jpg?size=626&ext=jpg" alt="Dog">
+            <h4 class="pet-name">Meet jerry</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis unde ut delectus, molestias aliquam molestiae nesciunt rerum numquam qui autem! Nesciunt, voluptates consequatur voluptatibus nostrum amet ex veniam quisquam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ratione quam eum incidunt vero aspernatur nihil, dignissimos eos nisi tempora facere ad, quo nulla adipisci, autem accusamus.</p>
+        </div>
+        <div class="card">
+            <img class="pet" src="https://img.freepik.com/free-photo/lovely-pet-portrait-isolated_23-2149192357.jpg?size=626&ext=jpg" alt="Dog">
+            <h4 class="pet-name">Meet jerry</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis unde ut delectus, molestias aliquam molestiae nesciunt rerum numquam qui autem! Nesciunt, voluptates consequatur voluptatibus nostrum amet ex veniam quisquam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ratione quam eum incidunt vero aspernatur nihil, dignissimos eos nisi tempora facere ad, quo nulla adipisci, autem accusamus.</p>
+        </div>
+    </div>
+</body>
+</html>
